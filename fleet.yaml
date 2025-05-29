@@ -1,0 +1,7 @@
+defaultNamespace: cattle-system
+
+targetCustomizations:
+  - name: staging-only
+    clusterSelector:
+      matchLabels:
+        env: suse
