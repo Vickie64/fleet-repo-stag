@@ -1,7 +1,9 @@
+# fleet.yaml
 defaultNamespace: cattle-system
-
-targetCustomizations:
-  - name: staging-only
+targets:
+  - name: prod-clusters
     clusterSelector:
       matchLabels:
-        env: suse
+        env: prod
+resources:
+  - metallb-repo.yaml
