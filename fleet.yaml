@@ -4,6 +4,6 @@ targets:
   - name: prod-clusters
     clusterSelector:
       matchLabels:
-        env: prod
+        env: suse
 resources:
   - metallb-repo.yaml
