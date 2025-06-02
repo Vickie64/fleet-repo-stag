@@ -1,4 +1,3 @@
-# fleet.yaml
 defaultNamespace: cattle-system
 targets:
   - name: prod-clusters

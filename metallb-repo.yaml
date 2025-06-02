@@ -1,4 +1,3 @@
-# helmrepo.yaml
 apiVersion: catalog.cattle.io/v1
 kind: ClusterRepo
 metadata:
